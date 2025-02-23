@@ -50,9 +50,11 @@ export class BookService {
   }
 
   async getBooksByTitle(name: string,
-                      page: number,
-                      limit: number): Promise<{data: Book[], info: InfoData}>{
+                      pagee: number,
+                      limitt: number): Promise<{data: Book[], info: InfoData}>{
 
+    const page: number = pagee as number;
+    const limit: number = limitt as number;
     const skip = (page - 1)*limit;
     const regex = new RegExp(name,'i');
 
