@@ -8,7 +8,7 @@ export class AppService {
       apis: [
         {
           name: 'book-api',
-          url: 'https://api.bookapi.com/v1/books',
+          url: 'https://api-libros-green.vercel.app/v1/books',
         }
       ]
     };

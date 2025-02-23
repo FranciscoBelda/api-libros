@@ -23,39 +23,39 @@ export class BookController {
       endpoints: {
         GetAll: {
           function: 'GET',
-          endpoint: '/v1/books/get/all',
+          endpoint: 'https://api-libros-green.vercel.app/v1/books/get/all',
         },
         GetAllPaginated: {
           function: 'GET',
-          endpoint: '/v1/books/get/all-paginated?page=1&limit=10',
+          endpoint: 'https://api-libros-green.vercel.app/v1/books/get/all-paginated?page=1&limit=10',
         },
         GetOne: {
           function: 'GET',
-          endpoint: '/v1/books/get/one-book/id',
+          endpoint: 'https://api-libros-green.vercel.app/v1/books/get/one-book/id',
         },
         GetByTitle: {
           function: 'GET',
-          endpoint: '/v1/books/get/search?title=bookTitle&page=1&limit=10',
+          endpoint: 'https://api-libros-green.vercel.app/v1/books/get/search?title=bookTitle&page=1&limit=10',
         },
         Add: {
           function: 'POST',
-          endpoint: '/v1/books/add',
+          endpoint: 'https://api-libros-green.vercel.app/v1/books/add',
         },
         UpdatePut: {
           function: 'PUT',
-          endpoint: '/v1/books/update/put/id',
+          endpoint: 'https://api-libros-green.vercel.app/v1/books/update/put/id',
         },
         UpdatePatch: {
           function: 'PATCH',
-          endpoint: '/v1/books/update/patch/id',
+          endpoint: 'https://api-libros-green.vercel.app/v1/books/update/patch/id',
         },
         Delete: {
           function: 'DELETE',
-          endpoint: '/v1/books/delete/id',
+          endpoint: 'https://api-libros-green.vercel.app/v1/books/delete/id',
         },
         GetGenres: {
           function: 'GET',
-          endpoint: '/v1/books/get/genres',
+          endpoint: 'https://api-libros-green.vercel.app/v1/books/get/genres',
         },
       }
     }
